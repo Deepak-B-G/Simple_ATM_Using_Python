@@ -6,8 +6,8 @@ import time
 from twilio.rest import Client
 
 def message():
-    account_sid = 'ACbf5c7a373fa240165fc0702f6bae0029'
-    auth_token = '9ddc5ecbe9662b050ab0af9052d921e0'
+    account_sid = 'account_sid '
+    auth_token = 'auth_token'
   
     client = Client(account_sid, auth_token)
   
