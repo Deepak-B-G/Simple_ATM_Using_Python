@@ -12,9 +12,9 @@ def message():
     client = Client(account_sid, auth_token)
   
     message = client.messages.create(
-                              from_='+17752434408',
-                              body ='You have debited rs 2000 from your account',
-                              to ='+919880068123'
+                              from_='YOUR_TWILIO_NUMBER',
+                              body ='YOUR MESSAGE',
+                              to ='YOUR_PHONE_NUMBER'
                           )
   
     print(message.sid)
